@@ -1,104 +1,45 @@
-# Currency-Recognition-Android-Project-Description
-The Currency Recognition Android Project is a mobile application designed to identify and recognize different currencies using image processing and machine learning techniques.
-# TensorFlow Lite sample applications
+# Codelabs for TensorFlow Lite
 
-<!-- Note: These samples are being staged internally before being migrated to
-     the new TF examples repo. See also b/119060183. -->
+This folder contains the code for the TensorFlow Lite codelab:
 
-The following samples demonstrate the use of TensorFlow Lite in mobile applications. Each sample is written for both Android and iOS.
+* [Recognize Flowers with TensorFlow on Android](https://codelabs.developers.google.com/codelabs/recognize-flowers-with-tensorflow-on-android/)
 
-## Image classification
+## Introduction
 
-This app performs image classification on a live camera feed and displays the
-inference output in realtime on the screen.
+In these codelabs, you will learn:
 
-<!-- TODO(b/124116863): Add app screenshot and model details. -->
+*   How to convert your model using the TFLite converter.
+*   How to run it using the TFLite interpreter in an Android app.
+*   How to use TFLite Support Library to do preprocessing and postprocessing.
+*   How to use GPU on your phone to accelerate your model.
 
-### Samples
+## Pre-requisites
 
-[Android image classification](examples/image_classification/android/README.md)
+None.
 
-[iOS image classification](examples/image_classification/ios/README.md)
+## Getting Started
 
-[Raspberry Pi image classification](examples/image_classification/raspberry_pi/README.md)
+Visit the Google codelabs site to follow along the guided steps.
 
-## Object detection
+## Support
 
-This app performs object detection on a live camera feed and displays the
-results in realtime on the screen. The app displays the confidence scores,
-classes and detected bounding boxes for multiple objects. A detected object is
-only displayed if the confidence score is greater than a defined threshold.
+- Stack Overflow: https://stackoverflow.com/questions/tagged/tensorflow-lite
 
-<!-- TODO(b/124116863): Add app screenshot and model details. -->
+Patches are encouraged, and may be submitted by forking this project and
+submitting a pull request through GitHub.
 
-### Samples
+## License
 
-[Android object detection](examples/object_detection/android/README.md)
+Copyright 2020 The TensorFlow Authors. All Rights Reserved.
 
-[iOS object detection](examples/object_detection/ios/README.md)
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-[Raspberry Pi object detection](examples/object_detection/raspberry_pi/README.md)
+http://www.apache.org/licenses/LICENSE-2.0
 
-
-## Speech command recognition
-
-This application recognizes a set of voice commands using the device's
-microphone input. When a command is spoken, the corresponding class in the app
-is highlighted.
-
-<!-- TODO(b/124116863): Add app screenshot and model details. -->
-
-### Samples
-
-[Android speech commands](examples/speech_commands/android/README.md)
-
-[iOS speech commands](examples/speech_commands/ios/README.md)
-
-
-## Gesture classification
-
-This app uses a model to classify and recognize different gestures. A model is trained on webcam data captured using a web interface. The model is then converted to a TensorFlow Lite model and used to classify gestures in a mobile application.
-
-![Gesture components](https://tensorflow.org/images/lite/screenshots/gesture_components.png)
-
-### Web app
-
-First, we use TensorFlow.js embedded in a web interface to collect the data required to train the model. We then use TensorFlow.js to train the model.
-
-[Web gesture classification](examples/gesture_classification/web/README.md)
-
-<!-- TODO(b/124116863): Add app screenshot and model details. -->
-
-### Conversion script
-
-The model downloaded from the web interface is converted to a TensorFlow Lite model.
-
-[Conversion script (available as a Colab notebook)](examples/gesture_classification/ml/README.md).
-
-### Mobile apps
-
-Once we have the TensorFlow Lite model, the implementation is very similar to the [Image classification](#image-classification) sample.
-
-<!-- TODO(b/124116863): Add app screenshot. -->
-
-#### Samples
-
-[Android gesture classification](examples/gesture_classification/android/README.md)
-
-[iOS gesture classification](examples/gesture_classification/ios/README.md)
-
-## Model personalization
-
-This app performs model personalization on a live camera feed and displays the
-results in realtime on the screen. The app displays the confidence scores,
-classes and detected bounding boxes for multiple objects that were trained in
-realtime.
-
-<!-- TODO(b/124116863): Add app screenshot and model details. -->
-
-### Samples
-
-[Android Model Personalization](examples/model_personalization/README.md)
-
-
-
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
