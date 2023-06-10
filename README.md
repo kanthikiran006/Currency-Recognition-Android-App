@@ -6,7 +6,7 @@ This folder contains the code for the TensorFlow Lite codelab:
 
 ## Introduction
 
-In these codelabs, you will learn:
+In these codelabs, you will learn :
 
 *   How to convert your model using the TFLite converter.
 *   How to run it using the TFLite interpreter in an Android app.
